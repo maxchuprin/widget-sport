@@ -1,0 +1,27 @@
+#version: '3.9'
+#
+#services:
+#  widget-sports:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    container_name: widget-sports
+#    environment:
+#      - ENV_FILE=.env
+#      - rapidApiKey=###############################
+#      - footballHost=api-football-v1.p.rapidapi.com
+#      - hockeyHost=api-hockey.p.rapidapi.com
+#      - basketballHost=api-basketball.p.rapidapi.com
+#      - tennisHost=sportscore1.p.rapidapi.com
+#      - mmaHost=flashlive-sports.p.rapidapi.com
+#      - timeZone=6
+#      - plusDay=1
+#      - cacheMinutes=1
+#      - footballLeague=UEFA Champions League, UEFA Europa League, Champions League, Premier League, Europe League, La Liga, Bundesliga, Serie A, Ligue 1
+#      - footballTeam=Manchester United, Liverpool, Arsenal, Chelsea, Manchester City, Barcelona, Real Madrid, Atletico Madrid, Bayern Munich, Borussia Dortmund, RB Leipzig, AC Milan, Inter, Juventus, Napoli, AS Roma, Paris Saint Germain, Monaco, Marseille
+#      - hockeyLeague=NHL, KHL, Championship
+#      - basketballLeague=NBA, National League
+#      - tennisLeague=Australian Open, French Open, Wimbledon, US Open, ATP Indian Wells, ATP Miami, Monte Carlo, Madrid, Rome, Toronto, Cincinnati, Shanghai, Paris, Finals - Turin
+#
+#    ports:
+#      - "####:####"

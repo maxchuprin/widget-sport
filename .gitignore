@@ -1,0 +1,33 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj/
+_test/
+.idea/
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go packages
+*.pkg/
+*.dep
+*.test
+*.test.out
+*.prof
+
+# Sublime Text files
+*.sublime-workspace
+
+# End of file
