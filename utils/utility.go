@@ -32,7 +32,7 @@ func CheckTimeZone(timeZone int) string {
 	case 1:
 		return ""
 	case 2:
-		return ""
+		return "asdf"
 	case 3:
 		return "Europe/Istanbul"
 	case 4:
@@ -46,7 +46,7 @@ func CheckTimeZone(timeZone int) string {
 	case 8:
 		return ""
 	case 9:
-		return ""
+		return "asdfas"
 	case 10:
 		return ""
 	case 11:
