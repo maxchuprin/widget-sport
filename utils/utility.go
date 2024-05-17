@@ -28,9 +28,9 @@ func Contains(options []string, searchValue string) bool {
 func CheckTimeZone(timeZone int) string {
 	switch timeZone {
 	case 0:
-		return ""
+		return "фвафыва"
 	case 1:
-		return ""
+		return "фывафы"
 	case 2:
 		return ""
 	case 3:
